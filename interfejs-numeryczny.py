@@ -7,7 +7,7 @@ import numpy as np
 from tkinter import scrolledtext
 
 
-df = pd.read_csv('lepsze_dane_klimatyczne_inter.csv')
+df = pd.read_csv('dane_klimatyczne.csv')
 df = df.drop(columns=["Unnamed: 0", "Kod stacji", "Data"])
 df
 df['Nazwa stacji'].unique()
